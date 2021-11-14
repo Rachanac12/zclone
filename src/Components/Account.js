@@ -18,7 +18,7 @@ class Account extends React.Component {
         const qs = queryString.parse(this.props.location.search);
         const { email } = qs;
         axios({
-            url: `http://localhost:1588/login/${email}`,
+            url: `http://evening-temple-85571.herokuapp.com/login/${email}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -28,7 +28,7 @@ class Account extends React.Component {
             .catch()
 
         axios({
-            url: `http://localhost:1588/orders/${email}`,
+            url: `http://evening-temple-85571.herokuapp.com/orders/${email}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
