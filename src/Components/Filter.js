@@ -29,7 +29,7 @@ class Filter extends React.Component {
                     location: location
                 };
                 axios({
-                    url: 'http://localhost:1588/filter',
+                    url: 'http://evening-temple-85571.herokuapp.com/filter',
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     data: filterobj
@@ -39,7 +39,7 @@ class Filter extends React.Component {
                     })
                     .catch()
                     axios({
-                        url: 'http://localhost:1588/locations',
+                        url: 'http://evening-temple-85571.herokuapp.com/locations',
                         method: 'GET',
                         headers: { 'Content-Type': 'application/json' }
                     })
@@ -66,7 +66,7 @@ class Filter extends React.Component {
                 };
         
                 axios({
-                    url: 'http://localhost:1588/filter',
+                    url: 'http://evening-temple-85571.herokuapp.com/filter',
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     data: filterObj
@@ -90,7 +90,7 @@ class Filter extends React.Component {
                     sort
                 };
                 axios({
-                    url: 'http://localhost:1588/filter',
+                    url: 'http://evening-temple-85571.herokuapp.com/filter',
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     data: filterObj
@@ -115,7 +115,7 @@ class Filter extends React.Component {
                 };
         
                 axios({
-                    url: 'http://localhost:1588/filter',
+                    url: 'http://evening-temple-85571.herokuapp.com/filter',
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     data: filterObj
@@ -142,7 +142,7 @@ class Filter extends React.Component {
                 };
         
                 axios({
-                    url: 'http://localhost:1588/filter',
+                    url: 'http://evening-temple-85571.herokuapp.com/filter',
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     data: filterObj
@@ -174,7 +174,7 @@ class Filter extends React.Component {
                     page
                 };
                 axios({
-                    url: 'http://localhost:1588/filter',
+                    url: 'http://evening-temple-85571.herokuapp.com/filter',
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     data: filterObj
