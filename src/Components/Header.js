@@ -100,7 +100,7 @@ class Header extends React.Component{
             contact_num
         };
            axios({
-            url:'http://localhost:1588/usersignup',
+            url:'http://evening-temple-85571.herokuapp.com/usersignup',
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: signUpObj
@@ -139,7 +139,7 @@ class Header extends React.Component{
         };
         axios({
             method: 'POST',
-            url: 'http://localhost:1588/login',
+            url: 'http://evening-temple-85571.herokuapp.com/login',
             headers: { 'Content-Type': 'application/json' },
             data: loginObj
         })
