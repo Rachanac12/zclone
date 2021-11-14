@@ -1,0 +1,82 @@
+.header{
+    height: 58px;
+    background-color: red;
+}
+.header-logo{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Poppins;
+    background-color: white;
+    color: red;
+    margin-left: 2%;
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 4px;
+}
+.user-login{
+    float: right;
+    margin-right: 2%;
+}
+.login-u{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 42px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+.signup-u{
+    display: inline-block;
+    border: solid 1px white;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginModal {
+    display: inline-block;
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: bolder;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    position: absolute;
+    right: 82%;
+    top: 7%;
+    }
+    .path{
+        width: 320px;
+        height: 0;
+        margin: 56px 0 0;
+        border: solid 1px #dedfe5;
+    }
+    .position{
+        position: absolute;
+        top: 32%;
+        right: 11%;
+    }
+    .or{
+        position: relative;
+        top: 7%;
+        right: -49%;
+    }
+    .already{
+            position: relative;
+    right: -16%;
+    top: 13%;
+    }
+    .position1{
+        position: relative;
+        top:5%;
+        right:2%
+    }

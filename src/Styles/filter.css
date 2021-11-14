@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.heading{
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.filter{
+    width: 25%;
+    height: 720px;
+    padding: 17px 25px 31px 26px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f5f5f5;
+}
+.menu{
+    width: 67%;
+}
+.box{
+    width: 705px;
+    height: 273px;
+    margin:61px 3px 60px 81px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f5f5f5;
+}
+.box img{
+    width: 113px;
+    height: 109px;
+    margin-left: 29px;
+    margin-top: 45px;
+
+}
+.text-filter{
+    margin: 0 154px 10px 0;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.sel-loc,#cuisine,#cost{
+    margin: 10px 100px 11px 1px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+#cuisine{
+    margin: 18px 102px -2px 1px;
+}
+
+input[type="checkbox"]{
+    width: 18px;
+    height: 16px;
+    margin: 10px 14px 9px 2px;
+}
+.check{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+#cost{
+    margin: 15px 102px 11px 1px;
+}
+.order{
+    margin: 15px 68px 12px 11px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+}
+.sort{
+    margin: 10px 172px 7px 5px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.inside{
+    width: 126px;
+    height: 117px;
+    border-radius: 21%;
+}
+.c1{
+    margin: 40px 64.4px 5px 75px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.fort{
+    margin: 3px 68.4px 11px 77px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.address{
+    margin:9px 63.4px 19px 75px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+.border{
+    width: 726.4px;
+    height: 0;
+    margin: 154px 0 23px;
+
+    border: solid 1px #9597a3;
+}
+.cuisines{
+    margin-left: 36px;
+    margin-right: 132px;
+    color: #636f88;
+}
+.items{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+#bakery{
+    margin-left:-22px;
+}
+#amt{
+    margin-left:-69px;
+}
+#bg{
+    background-color: #8c96ab;
+    color: #ffffff;
+}
+#arrow{
+    opacity: 0.4;
+    border: solid 2px #8c96ab;
+}
+.pagination {
+    display: flex;
+    margin-left: 48%;
+    list-style: none;
+}
+
+.page-link {
+    font-size: 22px;
+    color: black;
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.page-item {
+    margin: 10px 10px 10px 10px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    padding: 10px 15px;
+}
+.no-records {
+    color: cadetblue;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 22%;
+}
+@media only screen and (max-width:767px){
+    .visible{
+        display: initial;
+        position: relative;
+        right: 68%;
+    }
+    .boxs{
+        width: 471px;
+        height: 320px;
+        margin: 50px 0px 51px 0px;
+                
+    }
+    .menu{
+        float: initial;
+    }
+    .filters{
+        position: absolute;
+        width: 260px;
+        right: 23%;
+        top: 35%;
+            }
+    
+}
+@media only screen and (min-width:768px) and (max-width:990px){
+    .filter{
+        width: 40%;
+        height: 720px;}
+        .collapse:not(.show) {
+            display: initial;
+        }
+        .menu{
+            width: 60%;
+        }
+        .box{
+            margin: 0px 0px 51px 0px;;
+            width:436px;
+            height:320px;
+        }
+        .visible{
+            display: none;
+        }
+    
+}
+@media only screen and (min-width:991px) and (max-width:1199px){
+    .filter{
+        width: 30%;
+        height: 720px;}
+        .collapse:not(.show) {
+            display: initial;
+        }
+        .box{
+            width: 532px;
+            
+            position: relative;
+            left: 3%;
+        }
+        .visible{
+            display: none;
+        }
+    
+}
+@media only screen and (min-width:1200px) and (max-width:1700px){
+    .visible{
+        display: none;
+    }
+    .collapse:not(.show) {
+        display: initial;
+    }
+    .box{
+        position: relative;
+        left: -1%;
+width: 486px;
+    }
+}
