@@ -59,7 +59,7 @@ class Details extends React.Component{
     const qs=queryString.parse(this.props.location.search);
     const {restaurant}=qs;  
     axios({
-        url: `http://localhost:1588/restaurant/${restaurant}`,
+        url: `http://evening-temple-85571.herokuapp.com/restaurant/${restaurant}`,
         method: 'GET',
         headers: { 'Content-Type': 'application/json' }
     })
@@ -71,7 +71,7 @@ class Details extends React.Component{
     handleOrder=()=>{
         const {resId,menuItems}=this.state;
         axios({
-            url: `http://localhost:1588/menuitems/${resId}`,
+            url: `http://evening-temple-85571.herokuapp.com/menuitems/${resId}`,
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         })
@@ -191,7 +191,7 @@ class Details extends React.Component{
             resname:resname
         };
         axios({
-            url: 'http://localhost:1588/orders',
+            url: 'http://evening-temple-85571.herokuapp.com/orders',
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             data: orderObj
