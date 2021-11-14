@@ -14,7 +14,7 @@
             const locationId=event.target.value;
             sessionStorage.setItem('locationId',locationId);
             axios({
-                url: `http://localhost:1588/restaurants/${locationId}`,
+                url: `http://evening-temple-85571.herokuapp.com/restaurants/${locationId}`,
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' }
             })
